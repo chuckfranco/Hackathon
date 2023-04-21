@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Urban Dictionary Looker Upper",
+    "version": "1.0",
+    "description": "Fr fr the best looker upper no cap",
+    "content_scripts": [
+        {
+            "matches": ["(chrome-)extension"],
+            "js": ["./main.js"]
+        }
+    ]
+}
