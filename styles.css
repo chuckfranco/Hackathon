@@ -1,0 +1,16 @@
+body {
+    color: #fce212;
+    /* background-color: #ff7d3f; */
+    background: linear-gradient(#ff6a3d, transparent 90%), url(https://grainy-gradients.vercel.app/noise.svg);
+    /* filter: contrast(170%), brightness(1000%); */
+    font-family: Typical Writer;
+}
+
+button {
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: #d16838;
+    color: #fce212;
+    border-radius: 5%;
+    font-family: Typical Writer;
+}

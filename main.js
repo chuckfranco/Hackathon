@@ -16,6 +16,7 @@ const lookup = (searchTerm) => { fetch(`https://mashape-community-urban-dictiona
 
     const newParagraph = document.createElement('p')
     newParagraph.innerHTML = definition
+    newParagraph.style.color = '#a1512b'
     body.insertAdjacentElement("beforeend", newParagraph)
 })
 .catch(err => console.error(err))
@@ -24,8 +25,8 @@ const lookup = (searchTerm) => { fetch(`https://mashape-community-urban-dictiona
 const searchButton = document.querySelector('#btn')
 
 searchButton.addEventListener("click", event => {
-    // event.preventDefault()
-    const searchTerm = document.querySelector('#search').value
+  // event.preventDefault()
+  const searchTerm = document.querySelector('#search').value
     
   lookup(searchTerm)
 })
